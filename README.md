@@ -31,7 +31,9 @@ C:\Proyectos\Titanic
 └── README.md            # Este archivo
 
 ---
-🛠️ Configuración del Entorno
+
+## 🛠️ Configuración del Entorno
+
 1. Crear entorno virtual (recomendado)
 python -m venv venv
 .\venv\Scripts\activate  # En Windows
@@ -50,7 +52,8 @@ C:\Proyectos\Titanic\kaggle.json
 Este archivo está listado en .gitignore para evitar que se suba a GitHub.
 
 ---
-🚀 Flujo de Trabajo del Proyecto
+
+## 🚀 Flujo de Trabajo del Proyecto
 Ejecutar el script restart_utils.py si deseas iniciar una nueva corrida limpia (genera respaldo .zip automático).
 
 Cargar y explorar los datos en los notebooks 01_descarga_y_carga_datos.ipynb y 02_eda.ipynb.
@@ -63,13 +66,14 @@ Subir resultados a Kaggle desde la terminal:
 kaggle competitions submit -c titanic -f submission.csv -m "Comentario del intento"
 
 ---
-🧪 Reinicio de artefactos del proyecto
+
+##  🧪 Reinicio de artefactos del proyecto
 Puedes reiniciar automáticamente los directorios checkpoints/, results/ e images/ con respaldo incluido:
 python scripts/restart_utils.py
 Esto creará un archivo .zip en backups/ con los contenidos previos, etiquetado con fecha y hora.
 
 ---
-📊 Progreso del Proyecto
+## 📊 Progreso del Proyecto
 |Etapa|Estado|
 --
 |Estructura inicial|✅ Completado|
@@ -81,7 +85,8 @@ Esto creará un archivo .zip en backups/ con los contenidos previos, etiquetado 
 |Optimización de modelos|🔜 Pendiente|
 
 ---
-🔒 Seguridad y buenas prácticas
+
+## 🔒 Seguridad y buenas prácticas
 El archivo kaggle.json no se sube a GitHub por razones de seguridad.
 
 Todos los resultados intermedios se respaldan automáticamente antes de ser sobrescritos.
@@ -89,7 +94,7 @@ Todos los resultados intermedios se respaldan automáticamente antes de ser sobr
 El código está documentado en español, y los notebooks incluyen Markdown explicativo para facilitar la lectura.
 
 ---
-🧠 Tecnologías utilizadas
+## 🧠 Tecnologías utilizadas
 Python 3.x
 
 Jupyter Notebooks
@@ -101,6 +106,6 @@ scikit-learn, kaggle API
 Git + GitHub (repositorio privado)
 
 ---
-✍️ Autor
+## ✍️ Autor
 Alfredo Aponte
 Field Compliance Officer | Arquitecto SAP BTP | Científico de Datos en formación
