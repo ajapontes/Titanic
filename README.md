@@ -29,7 +29,7 @@ C:\Proyectos\Titanic
 ├── .gitignore           # Archivos que no se deben versionar
 ├── restart_utils.py     # Script de reinicio controlado
 └── README.md            # Este archivo
-
+```
 ---
 
 ## 🛠️ Configuración del Entorno
