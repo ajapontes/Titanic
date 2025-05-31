@@ -75,7 +75,7 @@ Esto creará un archivo .zip en backups/ con los contenidos previos, etiquetado 
 ---
 ## 📊 Progreso del Proyecto
 |Etapa|Estado|
---
+|-|-|
 |Estructura inicial|✅ Completado|
 |Descarga de datos|✅ Completado|
 |Exploración (EDA)|🔜 En progreso|
